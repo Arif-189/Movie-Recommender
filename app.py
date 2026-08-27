@@ -11,7 +11,7 @@ def fetch_poster(movie_id):
 
     try:
 
-        api_key = "2ddaf0c0d38d26cce33c1954dc4034cf"
+        api_key = "YOUR_API_KEY";
 
         url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}"
 
